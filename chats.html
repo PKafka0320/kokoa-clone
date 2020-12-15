@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,58 +23,32 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i>Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
+    <main class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
             src="https://w.namu.la/s/8e34bf9f419d5d29116b89896a9cc2db519f02580749b7da1bb34bc0dc7df8253cc8ea6ca66a07bc3781562e491d5831be4c423566da88afecc47ec575928dde6b4a6c094315c73975ae3ded7e378a5a39998028b0de22a36851bd7725f67fa268fdfb7b87919b1d8eb5b1c098ef0462"
-            class="user-component__avatar user-component__avatar--xl"
+            class="user-component__avatar user-component__avatar"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Bold</h4>
-            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+            <h6 class="user-component__subtitle">
+              Please check My Kokoa Account Info
+            </h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-
-      <div class="friends-screen_channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://ww.namu.la/s/b6e843833f57f847ad20facf1a0b9f487d92a6f74aee844ef98bc1927e8984620fe94b7f8a6bdfe194dfa9d82c3834a2fee6c250796decb5c4c39b1b25aebff6ad5612425469fa2f319dd80bf5471ee93f9fe8c26ed3fb81cd01b4058b0c60b4"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
-              <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
-            </div>
-          </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i>
-            </div>
-          </div>
+        <div class="user-component__column">
+            <span class="user-component__time">21:22</span>
+            <div class="badge">1</div>
         </div>
       </div>
     </main>
@@ -83,14 +57,14 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fas fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i
-          ></a>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="find.html"
