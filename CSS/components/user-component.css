@@ -19,6 +19,7 @@
 .user-component__title {
   font-weight: 600;
   font-size: 22px;
+  position: relative;
 }
 
 .user-component__subtitle {
@@ -52,4 +53,22 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__attention{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  border: 3px solid tomato;
+  color: tomato;
+  font-weight: 600;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+
+.user-component__subb{
+  display: flex;
 }
